@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+                <!---------------Header-Section--------------->
+
+    <header class="sub-header">
+        <nav>
+            <a href="index.html"><img src="/images/logo.png" ></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about-us.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>OUR CERTIFICATIONS </h1>
+    </header>
+    <!-- ---------------------Blog-Content----------------------------- -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="/images/grad.jpg" alt="">
+                <h2>OUR CERTIFICATE & ONLINE PROGRAM FOR 2023 </h2>
+                <p>Today's schools and educational institutions need strong leaders who have clarity in their vision and innovative approaches up their sleeves. The educational leaders are expected to be the key drivers of transformation who are able to work relentlessly on improving teaching and learning along with the professional development of high performance team.</p><br>
+                <p>The minimum eligibility for enrolling in Certificate in Educational Administration and Management course is 10+2 in any discipline. Aspiring as well as experienced teaching professionals, teachers in charge, school administrators, head of institutes who desire to gain knowledge in general administration, management and development are encouraged to take the course.
+                </p><br>
+                <p>Educational professionals who are planning to enter the field of administration and management need to pursue a professional course like Certificate in Educational administration and Management which will let them acquire knowledge in the methods to meet the various administrative and management goals. Developing the administrative and management skills have become indispensable for those who are keen on an administrative or managerial job in an educational institution and therefore, bagging a certificate in educational administration and management will prove to be extremely beneficial.</p><br>
+                <p>The candidates will be awarded a globally recognized certificate from Asian College of Teachers on successful completion of Certificate in Educational Administration and Management. The certificates awarded have an added advantage as the word “Online” is not mentioned in the certificates. Shipment of certificates within India is done free of cost but the candidates residing outside India are required to pay an additional fee. Generally after submission of all the assignments and completion of the course, the candidate has to pay the dispatch fee. After that we take the respective shipping address and contact number of the candidate and courier the certificate to the same. It takes a maximum of 3 weeks for the certificates to reach the candidate’s address.</p><br>
+                <p>Developing the administrative and management skills have become indispensable for those who are keen on an administrative or managerial job in an educational institution and therefore, bagging a certificate in educational administration and management will help you in building a strong career in administration.</p>
+                <br>
+                <p>Certificate in Educational Administration and Management is suitable for all those people who are interested or already associated with the administrative division of educational institutions. The course is ideal for principals, head of institutions, senior teachers, administrators, educationists. Jobs are opening up in the administrative wings of educational institutions worldwide and there will be no dearth of jobs for people with a certification in Educational Administration and Management. Several avenues have opened up when it comes to career choices for today’s teaching professionals and those who are planning to shift from classrooms to principal’s office or hold managerial positions must pursue professional courses which will help them stand in good stead. The certificate course could be immensely helpful for aspiring educational leaders and also provides an educator with the fundamentals who wants to be an entrepreneur and an entrepreneur about to start one’s own institution.</p>
+                
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                <span>Bussiness Analytics</span>
+                <span>30</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>24</span>
+                    </div>
+                 <div>
+                    <span>Data Science</span>
+                    <span>56</span>
+                </div> 
+                <div>
+                    <span>Journalism</span>
+                    <span>24</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutCAD</span>
+                    <span>49</span>
+                </div>
+            <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- --------------------------Footer------------------------ -->
+    <footer class="footer">
+        <h4>About Us</h4>
+        <p>We are a university driven by values enriched with diverse cultures and promote economic, social and spiritual advancement for an egalitarian society.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Richa Awasthi</p>
+    </footer>
+    <script>
+        var navLinks= document.getElementById("navlinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
